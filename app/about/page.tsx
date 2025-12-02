@@ -361,7 +361,7 @@ export default function AboutPage() {
                     </motion.div>
 
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                        {['Toronto', 'Mississauga', 'Brampton', 'Vaughan', 'Markham', 'Richmond Hill', 'Oakville', 'Burlington', 'Pickering', 'Ajax', 'Whitby', 'Oshawa'].map((area, index) => (
+                        {['Toronto', 'Mississauga', 'Brampton', 'Vaughan', 'Markham', 'Richmond Hill', 'Oakville', 'Burlington', 'Pickering', 'Ajax', 'Whitby', 'Oshawa', 'King City', 'Kleinburg'].map((area, index) => (
                             <motion.div
                                 key={index}
                                 initial={{ opacity: 0, scale: 0.9 }}
