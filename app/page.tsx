@@ -3,9 +3,11 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Mail, Phone, Instagram, Linkedin, Facebook, Coffee, ChevronDown, Home as HomeIcon, Tag, Key, TrendingUp, MapPin } from "lucide-react";
-import Scene from "@/components/Scene";
+import dynamic from "next/dynamic";
 import { Button } from "@/components/ui/button";
 import ContactForm from "@/components/ContactForm";
+
+const Scene = dynamic(() => import("@/components/Scene"), { ssr: false });
 
 export default function Home() {
   const fadeIn = {

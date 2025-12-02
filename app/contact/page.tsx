@@ -4,7 +4,9 @@ import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
-import Scene from "@/components/Scene";
+import dynamic from "next/dynamic";
+
+const Scene = dynamic(() => import("@/components/Scene"), { ssr: false });
 
 export default function ContactPage() {
     const fadeIn = {
