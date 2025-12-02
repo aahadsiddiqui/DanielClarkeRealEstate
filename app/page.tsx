@@ -3,11 +3,9 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Mail, Phone, Instagram, Linkedin, Facebook, Coffee, ChevronDown, Home as HomeIcon, Tag, Key, TrendingUp, MapPin } from "lucide-react";
-import dynamic from "next/dynamic";
 import { Button } from "@/components/ui/button";
 import ContactForm from "@/components/ContactForm";
 
-const Scene = dynamic(() => import("@/components/Scene"), { ssr: false });
 
 export default function Home() {
   const fadeIn = {
@@ -26,10 +24,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-midnight text-silver overflow-x-hidden selection:bg-gold selection:text-midnight">
-      {/* 3D Background */}
-      <div className="fixed inset-0 z-0 opacity-50 pointer-events-none">
-        <Scene />
-      </div>
+
 
       {/* Hero Section */}
       <section className="relative z-10 min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 pt-20">

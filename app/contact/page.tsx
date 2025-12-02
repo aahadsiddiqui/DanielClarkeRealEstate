@@ -4,9 +4,6 @@ import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
-import dynamic from "next/dynamic";
-
-const Scene = dynamic(() => import("@/components/Scene"), { ssr: false });
 
 export default function ContactPage() {
     const fadeIn = {
@@ -17,10 +14,6 @@ export default function ContactPage() {
 
     return (
         <main className="min-h-screen bg-midnight text-silver overflow-x-hidden selection:bg-gold selection:text-midnight">
-            {/* 3D Background */}
-            <div className="fixed inset-0 z-0 opacity-30 pointer-events-none">
-                <Scene />
-            </div>
 
             <div className="relative z-10">
                 {/* Navigation */}
