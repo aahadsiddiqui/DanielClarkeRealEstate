@@ -45,7 +45,7 @@ export default function ContactPage() {
                         </h1>
                         <div className="w-24 h-1 bg-gold mx-auto rounded-full mb-8" />
                         <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
-                            Ready to start your real estate journey? Whether you're buying, selling, or investing, I'm here to provide you with exceptional service and expert guidance.
+                            Ready to start your real estate journey? Whether you&apos;re buying, selling, or investing, I&apos;m here to provide you with exceptional service and expert guidance.
                         </p>
                     </motion.div>
                 </section>

@@ -89,6 +89,7 @@ export default function CreditScoreSection() {
                         className="bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-white/10"
                     >
                         <h3 className="text-xl font-bold text-white mb-3">Minimum Requirements</h3>
+                        <p className="text-gray-400 leading-relaxed mb-4">Your credit score is one of the most important factors lenders consider when you&apos;re applying for a mortgage. In Ontario, understanding the credit score ranges and what they mean can help you prepare for the home-buying process and potentially save you thousands of dollars in interest over the life of your mortgage.</p>
                         <p className="text-gray-400 text-sm leading-relaxed">
                             In Canada, the minimum credit score required for an insured mortgage (less than 20% down payment) is typically <span className="text-gold font-bold">600</span>. However, many lenders prefer a score of <span className="text-gold font-bold">680+</span> for their best rates.
                         </p>

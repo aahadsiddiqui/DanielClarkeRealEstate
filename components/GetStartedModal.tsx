@@ -43,7 +43,7 @@ export default function GetStartedModal({ isOpen, onClose }: GetStartedModalProp
                                 <div className="text-center mb-8">
                                     <h3 className="text-2xl font-bold text-white mb-2">Let's Get Started</h3>
                                     <p className="text-gray-400 text-sm">
-                                        Fill out the form below and I'll help you navigate your real estate journey.
+                                        Fill out the form below and I&apos;ll help you navigate your real estate journey.
                                     </p>
                                 </div>
 
@@ -95,7 +95,7 @@ export default function GetStartedModal({ isOpen, onClose }: GetStartedModalProp
 
                                     <div>
                                         <label htmlFor="modal-goal" className="block text-sm font-medium text-gray-300 mb-1">
-                                            I'm looking to...
+                                            I&apos;m looking to...
                                         </label>
                                         <select
                                             name="goal"

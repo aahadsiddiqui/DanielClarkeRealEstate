@@ -131,9 +131,9 @@ export default function AboutPage() {
                                 Your Trusted Real Estate Partner
                             </p>
                             <p className="text-lg text-gray-300 leading-relaxed mb-8">
-                                I'm passionate about helping clients navigate the real estate market with confidence.
+                                I&apos;m passionate about helping clients navigate the real estate market with confidence.
                                 With a specialized education, years of industry experience, and a commitment to excellence,
-                                I'm here to turn your real estate dreams into reality.
+                                I&apos;m here to turn your real estate dreams into reality.
                             </p>
                             <div className="flex flex-wrap gap-4">
                                 <Link href="/contact">
@@ -328,7 +328,7 @@ export default function AboutPage() {
                         className="space-y-8 text-lg text-gray-300 leading-relaxed"
                     >
                         <p>
-                            I'm a proud graduate of <span className="text-white font-medium">Ryerson University (currently known as TMU)</span>, where I earned my Bachelor of Commerce degree with a major in Real Estate Management.
+                            I&apos;m a proud graduate of <span className="text-white font-medium">Ryerson University (currently known as TMU)</span>, where I earned my Bachelor of Commerce degree with a major in Real Estate Management.
                         </p>
 
                         <p>
@@ -340,7 +340,7 @@ export default function AboutPage() {
                         </p>
 
                         <p>
-                            My passion for real estate began at the age of 16, and from that moment, I knew this was the career I wanted to pursue. Since then, I've taken all the necessary steps to turn that dream into a reality.
+                            My passion for real estate began at the age of 16, and from that moment, I knew this was the career I wanted to pursue. Since then, I&apos;ve taken all the necessary steps to turn that dream into a reality.
                         </p>
                     </motion.div>
                 </div>
@@ -450,7 +450,7 @@ export default function AboutPage() {
                                     </div>
                                     <div>
                                         <h4 className="text-white font-medium mb-1">I Provide Service</h4>
-                                        <p className="text-gray-400 text-sm">I'll take care of them with the same dedication and expertise you'd expect.</p>
+                                        <p className="text-gray-400 text-sm">I&apos;ll take care of them with the same dedication and expertise you&apos;d expect.</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-4">
@@ -479,7 +479,7 @@ export default function AboutPage() {
                     >
                         <p className="text-gray-400 text-lg">
                             Have a friend or family member with mortgage questions or looking for a property to lease or buy? <br className="hidden md:block" />
-                            I'm here to help your network succeed!
+                            I&apos;m here to help your network succeed!
                         </p>
                     </motion.div>
                 </div>
@@ -498,7 +498,7 @@ export default function AboutPage() {
                             Ready to Start Your Real Estate Journey?
                         </h2>
                         <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                            Whether you're buying, selling, or investing, I'm here to provide expert guidance every step of the way.
+                            Whether you&apos;re buying, selling, or investing, I&apos;m here to provide expert guidance every step of the way.
                         </p>
                         <Link href="/contact">
                             <Button className="bg-gold hover:bg-gold/90 text-midnight font-bold px-10 py-7 text-lg rounded-full transition-all hover:scale-105 hover:shadow-[0_0_30px_-5px_rgba(212,175,55,0.4)]">
