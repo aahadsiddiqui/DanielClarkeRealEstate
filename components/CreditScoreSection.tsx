@@ -104,7 +104,7 @@ export default function CreditScoreSection() {
                     >
                         <h3 className="text-xl font-bold text-white mb-3">Credit Bureaus</h3>
                         <p className="text-gray-400 text-sm leading-relaxed">
-                            Lenders in Ontario check your score with Canada's two main credit bureaus: <span className="text-white font-medium">Equifax</span> and <span className="text-white font-medium">TransUnion</span>. It's a good idea to check both reports annually for accuracy.
+                            Lenders in Ontario check your score with Canada&apos;s two main credit bureaus: <span className="text-white font-medium">Equifax</span> and <span className="text-white font-medium">TransUnion</span>. It&apos;s a good idea to check both reports annually for accuracy.
                         </p>
                     </motion.div>
 

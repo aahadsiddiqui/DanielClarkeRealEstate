@@ -406,7 +406,7 @@ export default function AboutPage() {
                             </div>
                             <h3 className="text-2xl font-bold text-white mb-4">Earn Referral Fees</h3>
                             <p className="text-gray-300 leading-relaxed mb-4">
-                                When you refer a friend, family member, or colleague to me, and they successfully buy, sell, lease, or invest in a property, you'll receive a generous referral fee as a thank you.
+                                When you refer a friend, family member, or colleague to me, and they successfully buy, sell, lease, or invest in a property, you&apos;ll receive a generous referral fee as a thank you.
                             </p>
                             <ul className="space-y-2 text-gray-400">
                                 <li className="flex items-start gap-2">
@@ -502,7 +502,7 @@ export default function AboutPage() {
                         </p>
                         <Link href="/contact">
                             <Button className="bg-gold hover:bg-gold/90 text-midnight font-bold px-10 py-7 text-lg rounded-full transition-all hover:scale-105 hover:shadow-[0_0_30px_-5px_rgba(212,175,55,0.4)]">
-                                Let's Connect
+                                Let&apos;s Connect
                             </Button>
                         </Link>
                     </motion.div>
